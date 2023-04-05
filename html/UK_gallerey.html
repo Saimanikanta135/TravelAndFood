@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <link rel="stylesheet" href="./UK_gallerey.css">
+     <script src="./UK_gallerey.js" defer></script>
+</head>
+<body onload="header()">
+    <div id="header">
+       
+        <ul id="navbar"> 
+            <li class="li"><a href="../index.html" style="color: orange;" id="home">HOME</a></li> 
+            <li class="li"><a href="./home_main.html" style="color: white;" id="info">INFO</a></li> 
+            <li class="li" id="log"><a href="./log-in.html">LOGOUT</a></li> 
+            </ul> 
+        <h1 id="pageheading"> Gallery</h1>
+        <button id="left" onclick="left()"><</button>
+        <button id="right" onclick="right()">></button>
+    </div>
+    
+    <div id="gallery">
+        <img class="images" onclick="openTheImage(0,'Shepherd Pie','A wholesome and classic British meal, Shepherd’s Pie originated in Scotland and the North of England and is primarily made from minced lamb and potatoes. Many families will make this dish using beef, but then it should actually be referred to as Cottage Pie, as shepherds only herd sheep duh. ')">
+        <img class="images" onclick="openTheImage(1,'Beef Wellington','Beef Wellington is a fillet of steak coated in patê and then rolled in pastry. Although the dish shares its name with the famous Duke of Wellington, it actually shares no link with the British nobility. In reality, it is thought that Beef Wellington was based around the French dish filet de bœuf en croûte fillet of beef in pastry.')">
+        <img class="images" onclick="openTheImage(2,'Fish and Chips','Perhaps nothing is more synonymous with British food than fish and chips. But, unfortunately, this dish can often be a bit disappointing if you don’t get it in the right place. A top tip is to look for chip shops that cook their fish fresh to order- avoid a chippy that displays stacks of precooked fish behind the glass! ')">
+        <img class="images" onclick="openTheImage(3,'Chicken Tikka Masala','Although it may have South Asian roots, there’s a lot of evidence to suggest that Chicken Tikka Masala was first created in Britain by a Bangladeshi chef in Glasgow. Nowadays, it’s considered one of the country’s most popular dishes and is served in curry houses all over Britain.')">
+        <img class="images" onclick="openTheImage(4,'Steak and Kidney Pie','Or any kind of pie for that matter. Whether they’re covered in pastry or covered in potato, pies feature heavily in British cuisine and are the perfect antidote to the harsh British winter. ')">
+        <img class="images" onclick="openTheImage(5,'Eton Mess','The perfect treat on a summer’s day, Eton Mess is a dessert made with meringue, a variety of berries, and cream. The dish was first served at Eton College in the late 19th century at school cricket matches and is now popular all over Britain. ')">
+        <img class="images" onclick="openTheImage(6,'Afternoon Tea','Scones, finger sandwiches, cake and tea- what could possibly be better? Although we Brits are famed for having afternoon tea every day at 5pm- that’s really a bit of a myth. Afternoon tea is a rare treat that is generally taken at around 3-4pm.')">
+        <img class="images" onclick="openTheImage(7,'Cornish Pasty','A pastry stuffed full of meat and vegetables, Cornish pasties first became popular among tin miners as they were easily transportable and eaten without a plate or cutlery. Nowadays, the humble pasty plays an important part in British food culture. It even thought that there were the inspiration for the South American empanada..')">
+        <img class="images" onclick="openTheImage(8,'A Full Breakfast','Also known as a ‘fry-up,’ a full breakfast is made up of eggs, bacon, sausages, beans, toast, tomatoes, and sometimes black pudding (blood sausage). This hearty breakfast is popular all over England, Ireland, Scotland and Wales and is often consumed on the weekend. There are also regional variations, with a Full Scottish served with black pudding and tattie scones.')">
+        <img class="images" onclick="openTheImage(9,'Roast Dinner','The humble roast dinner began as a meal that was eaten after the Sunday church service, as the meat and vegetables could be left in the oven to cook while the family was out at worship. Today, a Sunday Roast is still an important part of British life with around one-fifth of British people sitting down to a roast every week. ')">
+        <img class="images" onclick="openTheImage(10,'Faggots','This classic English food might have another meaning however, this is one of my favourite British foods, made up of pork bits that are shaped into a meatball. It’s best served with mashed potatoes, peas and lots of gravy.')">
+        <img class="images" onclick="openTheImage(11,'Cottage Pie','Cottage pie is one of the traditional British food favourites. However, it is not exactly your classic pastry pie. It is basically made up of minced beef with vegetables and gravy topped with mashed potatoes. It is a typical stodgy winter food to fill you up quickly.  ')">
+        
+
+    </div>
+    <div id="bigimage" style="display: none;" >
+        <h1 id="close" onclick="closeTheImage()">X</h1>
+        <img id="bigimg">
+        <h1 id="matter"></h1>
+        <p id="par"></p>
+    </div>
+</body>
+</html>

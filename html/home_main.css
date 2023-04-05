@@ -1,0 +1,170 @@
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+} 
+
+#container{ 
+    width:100vw; 
+    height:100vh;   
+    background-image:linear-gradient(rgba(0, 0, 0, 0.497) ,rgba(128, 128, 128, 0.158)), url(../assets/images/simon-english-48nerZQCHgo-unsplash.jpg); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+} 
+#nv{ 
+    width:700px; 
+    height:500px; 
+    position: absolute; 
+    right: 20px; 
+    bottom: 20px; 
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    align-items: center; 
+   
+
+} 
+#HOME{ 
+    font-size: 30px; 
+    text-decoration: none;
+    color: none;
+    display: flex; 
+    list-style:none; 
+} 
+.li{ 
+    padding-left: 20px; 
+    padding-top: 20px; 
+    transition:  all 2s; 
+} 
+#log{ 
+    position: absolute; 
+    right:30px; 
+} 
+.li:hover{ 
+    transform:scale(1.2); 
+    color: white; 
+} 
+.place{  
+    width:250px; 
+    height:200px; 
+    border: 2px solid black; 
+    display: flex; 
+    justify-content: center;         
+    align-items: center; 
+    color: transparent; 
+    transition: transform 0.5s; 
+    text-transform: uppercase; 
+    border-radius: 10px; 
+   
+} 
+.place:hover{ 
+    transform: scale(1.2); 
+    color: black; 
+    box-shadow: 2px 3px 5px black,-5px -6px 8px black;
+    text-shadow: 5px 5px 5px black; 
+
+} 
+#place1{ 
+    background-image: url(../assets/images/india_flag.jpg); 
+    background-size: 100% 200px; 
+    background-repeat: no-repeat; 
+    text-align: center; 
+    font-size: 30px; 
+    color: white; 
+   
+     
+} 
+#place2{ 
+    background-image: url(../assets/images/us_flag.jpg); 
+    background-size: 100%  200px; 
+    background-repeat: no-repeat; 
+    text-align: center; 
+    font-size: 30px; 
+    color: white; 
+} 
+#place3{ 
+    background-image: url(../assets/images/uk_flag.webp); 
+    background-size: 100% 200px; 
+    background-repeat: no-repeat; 
+    text-align: center; 
+    font-size: 30px; 
+    color: white; 
+} 
+#place4{ 
+    background-image: url(../assets/images/russia_flag.jpg); 
+    background-size: 100% 200px; 
+    background-repeat: no-repeat; 
+    text-align: center; 
+    font-size: 30px; 
+    color: white; 
+} 
+#kmm{ 
+    font-size: 60px; 
+    color:black; 
+    padding-top: 60px; 
+    text-shadow: 5px 5px 5px white; 
+} 
+  
+
+#maincontainer{
+
+    margin-left: 10vw;
+    width: 80vw;
+    height: 92vh;
+    background-color:transparent;
+}
+#img{
+    width: 40vw;
+    height: 90vh;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px black;
+    background-image: url(../assets/images/traveller.jpg);
+    background-size: 100%;
+    background-position: 100%;
+    background-color: aqua;
+}#matter{
+    position: absolute;
+    left:50vw ;
+    top: 48vw;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: justify;
+  text-indent: 50px;
+    width:40vw;
+    height:90vh ;
+}
+#heading{
+    position: absolute;
+    left: 100px;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+#matter1{
+    position: absolute;
+    top: 20px;
+    font-style: italic;
+}
+#table
+{
+    border-radius: 5%;
+    position: absolute;
+    left: 250px;
+width: 60vw;
+height: 50vh;
+background-color: black;
+}
+#table1{
+    
+    position: absolute;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    left: 80px;
+    top: 70px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+  }

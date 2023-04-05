@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    width: 100vw;
+    height: 90vh;
+    background-color: aquamarine;
+    background-size: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s;
+    box-shadow: 0px 5px 10px black; */
+   
+}
+#navbar{ 
+    font-size: 30px; 
+    display: flex; 
+    list-style:none; 
+} 
+.li{ 
+    padding-left: 20px; 
+    padding-top: 20px; 
+    transition:  all 2s; 
+} 
+#log{ 
+    position: absolute; 
+    right:30px; 
+} 
+.li:hover{ 
+    transform:scale(1.2); 
+    color: white; 
+} 
+#pageheading{
+    font-size: 120px;
+    position: absolute;
+    top: 40vh;
+    left: 25vw;
+    letter-spacing: 50px;
+    color: white;
+    text-shadow: 15px,15px,15px black;
+}
+#left{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 40vh;
+    left: 0px;
+    font-size: 60px;
+    background-color: transparent;
+    border: none;
+}
+#right{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 40vh;
+        right: 0px;
+        font-size: 60px;
+        background-color: transparent;
+        border: none;
+}
+#gallery{
+    background-image: linear-gradient(pink,rgb(158, 158, 219));
+    width: 95vw;
+    height: 260vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    column-gap: 100px; 
+    padding: 5vh; 
+      
+}
+.images{
+    border-radius: 10px;
+    transition: all 1s;
+}
+.images:hover{
+    transform: scale(1.2);
+}
+#bigimage{
+    width: 60vw;
+    height: 70vh;
+    background-color: rgba(7, 0, 0, 0.986);
+    border-radius: 10px;
+    position: fixed;
+    top: 100px;
+    left: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bigimg{
+    width: 27vw;
+    height: 52vh;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+
+}#close{
+    position: fixed;
+    top: 60px;
+    right: 250px;
+    color: red;
+    cursor: pointer;
+}#matter{
+    position: absolute;
+    top: 50px;
+    left: 35vw;
+    letter-spacing: 5px;
+    color: white;
+}
+#par{
+    position: absolute;
+    top: 130px;
+    left:30vw;
+    color: white;
+}

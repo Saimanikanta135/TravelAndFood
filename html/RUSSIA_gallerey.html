@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <link rel="stylesheet" href="./RUSSIA_gallerey.css">
+     <script src="./RUSSIA_gallerey.js" defer></script>
+</head>
+<body onload="header()">
+    <div id="header">
+       
+        <ul id="navbar"> 
+            <li class="li"><a href="../index.html" style="color: orange;" id="home">HOME</a></li> 
+            <li class="li"><a href="./home_main.html" style="color: white;" id="info">INFO</a></li> 
+            <li class="li" id="log"><a href="./log-in.html">LOGOUT</a></li> 
+            </ul> 
+        <h1 id="pageheading"> Gallery</h1>
+        <button id="left" onclick="left()"><</button>
+        <button id="right" onclick="right()">></button>
+    </div>
+    
+    <div id="gallery">
+        <img class="images" onclick="openTheImage(0,'Napolyeon tort','Napolyeon tort is a traditional Russian cake consisting of layers of thin and flaky puff pastry and a rich and smooth pastry cream sandwiched between the layers. The layers are usually made with a combination of flour, salt, butter, white vinegar, a bit of vodka, and eggs, while the pastry cream usually consists of milk, egg yolks, sugar, and cornstarch.')">
+        <img class="images" onclick="openTheImage(1,'Prianik','Prianik is a Russian sweet bread or a cookie that is flavored with spices such as cinnamon, ginger, cardamom, nutmeg, cumin, and anise. It is often filled with various fruit jams and caramelized or condensed milk. The first prianik was made only with rye flour, honey, and berry juice, while the spices were added later, by the 15th century.')">
+        <img class="images" onclick="openTheImage(2,'Osetra Caviar','Osetra is a prized caviar variety that is harvested from the Russian osetra sturgeon (Acipenser gueldenstaedtii). Osetra is native to the Caspian Sea, the Black Sea, and the Sea of Azov, including their river basins. Since it is a critically endangered species, it is rarely found or caught wild, and caviar is mostly harvested from farmed varieties.')">
+        <img class="images" onclick="openTheImage(3,'Sbiten','Sbiten is a traditional Russian hot beverage made from honey, water, jam, and various spices. It dates back to the 12th century, when it was made in copper samovars by sbiten makers who sold it on street corners. The name sbiten is derived from the Russian sbit, meaning to beat, referring to the act of pounding spices and herbs in a mortar.')">
+        <img class="images" onclick="openTheImage(4,'Königsberger Klopse','Königsberger Klopse is a savory meal consisting of meatballs in a white sauce served with a side of boiled potatoes and sliced pickled beets. Similar dishes have existed since the Middle Ages, but klopse (lit. meatballs) were invented in Königsberg (now known as Kaliningrad) back in the 18th century.')">
+        <img class="images" onclick="openTheImage(5,'Stroganina','Stroganina is the Russian version of sashimi. It is prepared with a whole fish that is frozen raw after which it is skinned and cut with a sharp knife into incredibly thin slices. The pieces naturally curl, and they should be served immediately after slicing.')">
+        <img class="images" onclick="openTheImage(6,'Guriev kasha','Guriev kasha is a traditional Russian semolina porridge. Unlike more typical porridge varieties, Guriev kasha is not merely cooked in milk–instead, milk or cream is baked in the oven, and the crust which is formed on top is removed and used to separate the semolina layers.')">
+        <img class="images" onclick="openTheImage(7,'Rasstegai','Rasstegai is a traditional Russian pastry with a hole in the center, which is stuffed with a wide variety of fillings – from liver with eggs to rice with mushrooms. However, the traditional stuffing is minced fish such as sturgeon or salmon.')">
+        <img class="images" onclick="openTheImage(8,'Kurnik','Kurnik is a festive variety of traditional Russian pirog—a pie made from various types of dough that is filled with either sweet or savory ingredients. This special variety consists of a pastry shell that is shaped into a large dome and comes filled with layers of meat (typically chicken, which is suggested by its name - kuritsa means hen in Russian), eggs, rice, kasha, mushrooms, and other additional ingredients.')">
+        <img class="images" onclick="openTheImage(9,'Sushki','Sushki are traditional Russian snacks made from sweet dough, shaped into small rings. They consist of flour, eggs, water, sugar, and salt. The name sushki is derived from the Russian word sushit, meaning to dry, referring to the rock-hard texture of these rings.')">
+        <img class="images" onclick="openTheImage(10,'Smetannik','Smetannik is a traditional Russian layer cake. Its usually made with a combination of flour, sugar, eggs, honey, and a sour cream frosting consisting of sour cream, vanilla, cream cheese, and milk. The cake is traditionally made in a deep pan.')">
+        <img class="images" onclick="openTheImage(11,'Coulibiac','Coulibiac is a Russian pie characterized by its oblong shape and various fillings such as salmon and buckwheat, cabbage with mushrooms and onions, or ground meat with rice and eggs. The pie is usually made with yeast dough, and the quantity of fillings should always exceed the quantity of pastry.')">
+        
+
+    </div>
+    <div id="bigimage" style="display: none;" >
+        <h1 id="close" onclick="closeTheImage()">X</h1>
+        <img id="bigimg">
+        <h1 id="matter"></h1>
+        <p id="par"></p>
+    </div>
+</body>
+</html>

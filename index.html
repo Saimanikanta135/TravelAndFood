@@ -1,0 +1,340 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ 
+     
+    <title>HOME PAGE</title> 
+    <style>    
+    *{ 
+            margin: 0px; 
+            padding: 0px; 
+        } 
+ 
+        #container{ 
+            width:100vw; 
+            height:100vh;   
+            background-image:linear-gradient(rgba(0, 0, 0, 0.497) ,rgba(128, 128, 128, 0.158)), url(./assets/images/simon-english-48nerZQCHgo-unsplash.jpg); 
+
+            background-repeat: no-repeat; 
+            background-size: 100%; 
+            
+        } 
+        #nv{ 
+            width:700px; 
+            height:500px; 
+            position: absolute; 
+            right: 20px; 
+            bottom: 20px; 
+            display: flex; 
+            justify-content: space-around; 
+            flex-wrap: wrap; 
+            align-items: center; 
+            
+           
+ 
+        } 
+        #HOME{ 
+            font-size: 30px; 
+            display: flex; 
+            list-style:none; 
+          
+        } 
+        .li{ 
+            padding-left: 20px; 
+            padding-top: 20px; 
+            transition:  all 2s; 
+        } 
+        #log{ 
+            position: absolute; 
+            right:30px; 
+        } 
+        .li:hover{ 
+            transform:scale(1.2); 
+            color: white; 
+            
+        } 
+        .place{  
+            width:250px; 
+            height:200px; 
+            border: 2px solid black; 
+            display: flex; 
+            justify-content: center;         
+            align-items: center; 
+            color: transparent; 
+            transition: transform 0.5s; 
+            text-transform: uppercase; 
+            border-radius: 10px; 
+           
+        } 
+        .place:hover{ 
+            transform: scale(1.2); 
+            color: black; 
+            box-shadow: 2px 3px 5px black,-5px -6px 8px black;
+            text-shadow: 5px 5px 5px black; 
+            
+ 
+        } 
+        #place1{ 
+            background-image: url(./assets/images/india_flag.jpg); 
+            background-size: 100% 200px; 
+            background-repeat: no-repeat; 
+            text-align: center; 
+            font-size: 30px; 
+            color: white; 
+            border: none;
+           
+             
+        } 
+        #place2{ 
+            background-image: url(./assets/images/us_flag.jpg); 
+            background-size: 100%  200px; 
+            background-repeat: no-repeat; 
+            text-align: center; 
+            font-size: 30px; 
+            color: white; 
+            border: none;
+        } 
+        #place3{ 
+            background-image: url(./assets/images/uk_flag.webp); 
+            background-size: 100% 200px; 
+            background-repeat: no-repeat; 
+            text-align: center; 
+            font-size: 30px; 
+            color: white;
+            border: none; 
+        } 
+        #place4{ 
+            background-image: url(./assets/images/russia_flag.jpg); 
+            background-size: 100% 200px; 
+            background-repeat: no-repeat; 
+            text-align: center; 
+            font-size: 30px; 
+            color: white; 
+            border: none;
+        } 
+        #kmm{ 
+            font-size: 60px; 
+            color:black; 
+            padding-top: 60px; 
+            text-shadow: 5px 5px 5px white; 
+        } 
+          #container2{
+            width: 100%;
+            height: 4000px;
+            background-image: linear-gradient(rgba(128, 128, 128, 0.842),grey);
+
+          }
+          #india{
+            width: 100%;
+            height: 900px;
+            background-color: black;
+            clip-path: polygon(45% 0, 100% 0%, 99% 100%, 0% 100%);
+          }
+          #US{
+            width: 100%;
+            height: 900px;
+            background-color: black;
+            clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+          }
+          #UK{
+            width: 100%;
+            height: 900px;
+            background-color: black;
+            clip-path: polygon(68% 0, 100% 0%, 99% 100%, 0% 100%);
+          }
+          #RUSSIA{
+            width: 100%;
+            height: 900px;
+            background-color: black;
+            clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+          }
+          #video,#video1,#video2,#video3{
+            width: 100%;
+            height: 100px;
+
+
+          }
+          #innervideo{
+              width: 100%;
+          }
+          iframe{
+            width: 100%;
+            height: 350px;
+         
+          }
+          #ind{
+            position: absolute;
+            left: 270px;
+            letter-spacing: 20px;
+            font-size: 60px;
+            color: black;
+            text-shadow: 2px 2px 2px white;
+          }
+          #p{
+            position:absolute;
+            top: 740px;
+            font-size: 20px;
+          }
+          #us{
+            position: absolute;
+            right:180px;
+            letter-spacing: 20px;
+            font-size: 60px;
+            color: black;
+            text-shadow: 2px 2px 2px white;
+          }
+          #p1{
+            position:absolute;
+            top: 1640px;
+           left: 850px;
+            font-size: 20px;
+          }
+          #uk{
+            position: absolute;
+            left:180px;
+            letter-spacing: 20px;
+            font-size: 60px;
+            color: black;
+            text-shadow: 2px 2px 2px white;
+          }
+          #p2{
+            position:absolute;
+            top: 2540px;
+            font-size: 20px;
+          }
+          #russia{
+            position: absolute;
+            right:150px;
+            letter-spacing: 20px;
+            font-size: 60px;
+            color: black;
+            text-shadow: 2px 2px 2px white;
+          }
+          #p3{
+            position:absolute;
+            top: 3440px;
+           left: 850px;
+            font-size: 20px;
+          }
+#ending{
+  background-color: grey;
+  width: 98vw;
+  height: 20vh;
+}
+#fb{
+  width: 5vw;
+  height: 20vh;
+  float: right;
+}
+#inst{
+  width: 5vw;
+  height: 20vh;
+  float: right;
+}
+#snap{
+  width: 5vw;
+  height: 20vh;
+  float: right;
+}
+#copy{
+  width: 5vw;
+  height: 20vh;
+  float: left;
+}
+a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+    </style> 
+</head> 
+<body> 
+<div id="container"> 
+
+    <div id="nv"> 
+        <div class="place" id="place1"><a href="./html/gallerey.html " >india</a></div> 
+        <div class="place" id="place2"><a href="./html/usa_gallerey.html">usa</a></div> 
+        <div class="place" id="place3"><a href="./html/UK_gallerey.html">UK</a></div> 
+        <div class="place" id="place4"><a href="./html/RUSSIA_gallerey.html">RUSSIA</a></div> 
+    </div> 
+ 
+        <ul ID="HOME"> 
+        <li class="li"><a href="#"  style="color: orange;"  id="home">HOME</a></li> 
+        <li class="li"><a href="./html/home_main.html"  id="info">INFO</a></li> 
+        <li class="li" id="log"><a href="./html/log-in.html">LOGOUT</a></li> 
+        </ul> 
+<div id="kmm"> 
+<h1>TRAVEL <br>AND <br>FOOD</h1> 
+</div> 
+</div> 
+<div id="container2">
+    <div id="cont1">
+    <h1 id="ind">INDIA</h1>
+    <p id="p">India, officially the Republic of India, is a country in South Asia.<br> It is the seventh-largest country by area, the second-most populous country,<br> and the most populous democracy in the worldBounded by the <br>Indian Ocean on the south, the Arabian Sea on the south<br>west, and the Bay of Bengal on the southeast, it shares <br>land borders with Pakistan to the west;[f] China, <br>Nepal, and Bhutan to the north;and Bangladesh<br> and  Myanmar to the east. In the Indian Ocean, <br>India is in the vicinity of Sri Lanka and <br>the Maldives; its Andaman and Nicobar <br>Islands share a maritime border <Br>with Thailand,<br> Myanmar, and Indonesia</p>
+    <div id="india">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30688492.479257453!2d64.4112717619459!3d20.12762741063244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1677041761266!5m2!1sen!2sin" >
+
+            </iframe>
+        </div>
+        <div id="video">
+            <video id="innervideo" src="./assets/videos/india_food.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+    </div>
+    <div id="cont2">
+    <h1 id="us">USA</h1>
+    <p id="p1">
+        The United States of America (U.S.A. or USA), commonly known as the United States or America, is a country primarily located in North America. It consists of 50 states, a federal district, five major unincorporated territories, nine Minor Outlying Islands, and 326 Indian reservations. The United States is also in free association with three Pacific Island sovereign states: the Federated States of Micronesia, the Marshall Islands, and the Republic of Palau. It is the world's third-largest country by both land and total area. 
+    </p>
+    <div id="US">
+        <div id="map1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26361061.647850305!2d-113.75168936521906!3d36.241849419793745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1677043140801!5m2!1sen!2sin"></iframe>
+      
+        
+        <div id="video1">
+            <video src="./assets/videos/us_food.mp4" autoplay muted loop></video>
+        </div>
+      </div>
+    
+    </div>
+    <div id="cont3">
+        <h1 id="uk">UK</h1>
+        <p id="p2">The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom <br> or Britain, is a country in Europe, off the north-western coast of the continental mainland.<br>It comprises England, Scotland, Wales and Northern Ireland.The United Kingdom includes <br> the island of Great Britain,the north-eastern part of the island of Ireland, and many smaller islands <br> within the British Isles. Northern Ireland shares a land border with the Republic of Ireland; otherwise,<br> the United Kingdom is surrounded by the Atlantic Ocean, the North Sea, the English Channel, the Celtic Sea and the Irish Sea. </p>
+    <div id="UK">
+        <div id="map2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26361061.647850305!2d-113.75168936521906!3d36.241849419793745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1677045456582!5m2!1sen!2sin"></iframe>
+        </div>
+        <div id="video2">
+            <video src="./assets/videos/uk_food.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+    </div>
+    <div id="cont4">
+        <h1 id="russia">RUSSIA</h1>
+        <p id="p3">Russia or the Russian Federation,is a transcontinental country spanning Eastern Europe and Northern Asia. It is the largest country in the world, with its internationally recognised territory covering 17,098,246 square kilometres (6,601,670 sq mi), and encompassing one-eighth of Earth's inhabitable landmass. Russia extends across eleven time zones and shares land boundaries with fourteen countries. It is the world's ninth-most populous country and Europe's most populous country, with a population of over 147 million people.</p>
+    <div id="RUSSIA">
+        <div id="map3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37494223.23909491!2d103.00000000000001!3d55.000000000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2sRussia!5e0!3m2!1sen!2sin!4v1677046186406!5m2!1sen!2sin"></iframe>
+        </div>
+        <div id="video3">
+            <video src="./assets/videos/russia_food.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+    </div>
+
+</div>
+<div id="ending">
+  <a href="https://www.facebook.com/">
+<img src="./assets/images/facebook.svg" id="fb"></a>
+<a href="https://www.instagram.com/"><img src="./assets/images/instagram.svg" id="inst"></a>
+
+<a href="https://www.snapchat.com/"><img src="./assets/images/snapchat.svg" id="snap"></a>
+<img src="./assets/images/copyright-solid.svg" id="copy">
+<h1> this copy right belongs to Sai Manikanta</h1>
+</div> 
+
+</body> 
+</html>
+

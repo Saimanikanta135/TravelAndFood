@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>travel_and_food</title>
+    <style>
+#container{
+    width: 97vw;
+    height: 97vh;
+     background-color: rgb(197, 55, 79);
+      position: relative;
+         }
+ #sub-container{
+   position: absolute;
+    left: 100px;
+    top: 80px;
+   width: 80%;
+    height: 500px;
+    background-image: linear-gradient(black,blue);
+}
+#main{
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    background-color: black;
+} 
+#heading{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 15vw;
+    top: 0vh;
+}
+#emali
+{
+    width: 14vw;
+    height: 5vh;
+    font-size: 15px;
+    position: absolute;
+    left: 10vw;
+    top: 12vh;
+   border: 5px solid blue;
+   border-radius: 15px; 
+   
+
+}
+
+#pass{
+    width: 14vw;
+    height: 5vh;
+    font-size: 15px;
+    position: absolute;
+    left: 10vw;
+    top: 21vh;  
+    border: 5px solid blue; 
+    border-radius: 15px;
+}
+#wrong{
+    position: absolute;
+    left: 13vw;
+    top: 26vh;
+    color: white;
+    font-size: 21px;
+}
+#but{
+    position: absolute;
+    left: 15vw;
+    bottom: 3vh;
+    font-size: 1.3vw;
+}
+#visible{
+    width: 3vw;
+    height: 4vh;
+    position: absolute;
+    left: 21vw;
+    bottom: 19vh;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+    </style>
+    <script src="./log-in.js " defer></script>
+    
+</head>
+<body>
+   
+    <div id="container">
+        <form id="fom">
+        <div id="sub-container">
+           
+            <div id="main">
+                <h1 id="heading"> Login</h1>
+                <div id="inputdiv">
+                    <input id="emali" type="email" placeholder="enter the UserId "></div><br><br>
+                <div id="passworddiv">
+                    <input id="pass" type="password" placeholder="enter the password ">
+                   
+                  <img src="../assets/images/monkey_eye.png"  id="visible" onmousedown="visiblePassword()" onmouseup="hidePassword()"> 
+                    
+                </div>
+                <h1 id="wrong"> </h1>
+                <input id="but" type="button" value="Login" onclick="autho()">
+            </div>
+       
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html

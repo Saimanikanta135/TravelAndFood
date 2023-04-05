@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <link rel="stylesheet" href="./gallerey.css">
+     <script src="./gallerey.js" defer></script>
+</head>
+<body onload="header()">
+    <div id="header">
+       
+        <ul id="navbar"> 
+            <li class="li"><a href="../index.html" style="color: orange;" id="home">HOME</a></li> 
+            <li class="li"><a href="./home_main.html" style="color: white;" id="info">INFO</a></li> 
+            <li class="li" id="log"><a href="./log-in.html">LOGOUT</a></li> 
+            </ul> 
+        <h1 id="pageheading"> Gallery</h1>
+        <button id="left" onclick="left()"><</button>
+        <button id="right" onclick="right()">></button>
+    </div>
+    
+    <div id="gallery">
+        <img class="images" onclick="openTheImage(0,'PULIHORA','Pulihora is a popular south Indian dish that can easily be found in the states of Andhra Pradesh, Tamil Nadu, and Karnataka. It consists of rice, turmeric, tamarind, curry leaves, coriander, ginger, and green chiles. Additionally, yellow lentils, roasted sesame seed powder, and mustard seeds can be added to enhance the already rich flavors of the dish.')">
+        <img class="images" onclick="openTheImage(1,'MALAI','The thick, mild malai is a homemade dairy product made with heated milk which is refrigerated until a thick layer of fat is created on top. Yellow in color, malai is usually skimmed off by hands, stored in containers, and the procedure is repeated until all fat and proteins have been separated from the milk.')">
+        <img class="images" onclick="openTheImage(2,'PAV bhaji','Pav bhaji is a popular street snack originating from the Indian state of Maharashtra. It consists of a vegetable curry that is typically served with a soft bread roll known as pav. The dish was invented in the 1850s as a midnight meal by street vendors who prepared it with all the leftover vegetables from the day, which were then mashed and combined with spices and ghee butter.')">
+        <img class="images" onclick="openTheImage(3,'MASALA dosa','A traditional southern Indian dish known as masala dosa is popular throughout the country, made from a batter of soaked rice and lentils that is baked into a thin pancake and usually stuffed with potatoes, onions, and mustard seeds. The dish is often garnished with grated coconut and chopped coriander.')">
+        <img class="images" onclick="openTheImage(4,'Kulfi','Kulfi is a traditional Indian ice cream made with slowly simmered whole milk. Although the long-simmering process results in a loss of volume, it makes up for it with a delicious, nutty, caramelized flavor. The ice cream is characterized by its unusual, conical shape, a result of using traditional, special molds with tight-fitting lids.')">
+        <img class="images" onclick="openTheImage(5,'Chicken 65','Chicken 65 is a classic poultry dish with origins in Chennai, India. It consists of deep-fried chicken that is marinated in ginger, lemon, red chiles, and a variety of other spices. There are a few theories about the origin of chicken 65. The most popular theory says that it was created in Tamil Nadu by A. M. Buhari in 1965.')">
+        <img class="images" onclick="openTheImage(6,'Gulab jamun','Gulab jamun is a dessert based on milk solids that are kneaded into a dough, shaped into balls, and deep-fried in ghee. The balls then get soaked in a sugary concoction flavored with saffron, green cardamom, and rose water. When served, gulab jamun is often garnished with dried nuts to further enhance its flavors.')">
+        <img class="images" onclick="openTheImage(7,'Pakora','Pakora is a savory, deep-fried Indian snack made with pieces of vegetables such as cauliflower and eggplant. Although it is a quintessential Indian snack that can be easily found on numerous street corners, it can also be made at home. Traditionally, pakoras are at their most popular during spring, when the locals enjoy fried foods to celebrate the monsoon season.')">
+        <img class="images" onclick="openTheImage(8,'Ras malai','Ras malai is a popular Indian dessert consisting of white cream, sugar, milk, and cardamom-flavored paneer cheese known as chhana. Almonds, cashews, and saffron are often added to the dessert. Ras malai is of West Bengali origins, and is sometimes described as a rich cheesecake without a crust.')">
+        <img class="images" onclick="openTheImage(9,'Papadum','Papadum is an Indian snack made with either lentil, gram, rice, or chickpea flour that is baked into a thin, crispy cracker bread. It can be consumed on its own, with pickles, or served with other dishes such as curries, when it.')">
+        <img class="images" onclick="openTheImage(10,'Keema','Keema is a stew that is usually prepared as a curry with ingredients such as minced lamb or goat meat, green peas, potatoes, ginger, chili, onions, ghee, garlic, and garam masala spices. The name of the dish means minced meat in Urdu. Although keema is most popular in north India, Pakistan, and Bangladesh, some believe that the dish has Persian origins due to the fact that it was first mentioned as a recipe in Ain-I-Akbari.')">
+        <img class="images" onclick="openTheImage(11,'Palak paneer','Palak paneer is a popular Indian vegetarian dish made with paneer cheese in a rich, thick sauce consisting of puréed spinach mixed with tomatoes, garam masala, garlic, and numerous spices. The key ingredients are even mentioned in the name of the dish, since palak means spinach in hindi, and paneer refers to the cheese.')">
+        
+
+    </div>
+    <div id="bigimage" style="display: none;" >
+        <h1 id="close" onclick="closeTheImage()">X</h1>
+        <img id="bigimg">
+        <h1 id="matter"></h1>
+        <p id="par"></p>
+    </div>
+</body>
+</html>

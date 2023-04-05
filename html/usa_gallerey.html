@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <link rel="stylesheet" href="./usa_gallerey.css">
+     <script src="./usa_gallerey.js" defer></script>
+</head>
+<body onload="header()">
+    <div id="header">
+       
+        <ul id="navbar"> 
+            <li class="li"><a href="../index.html" style="color: orange;" id="home">HOME</a></li> 
+            <li class="li"><a href="./home_main.html" style="color: white;" id="info">INFO</a></li> 
+            <li class="li" id="log"><a href="./log-in.html">LOGOUT</a></li> 
+            </ul> 
+        <h1 id="pageheading"> Gallery</h1>
+        <button id="left" onclick="left()"><</button>
+        <button id="right" onclick="right()">></button>
+    </div>
+    
+    <div id="gallery">
+        <img class="images" onclick="openTheImage(0,'Dessert Bars','Dessert bars are one of the most versatile American sweet treats. Their texture is described as a mix of the classic American brownie and traditional chewy cookies. They are usually baked in trays, then cut into square shapes before serving. The foundation of every dessert bar is the crust, which is usually topped with a scrumptious topping or a filling, and often finished with an additional layer on top.')">
+        <img class="images" onclick="openTheImage(1,'Sandwich','A breakfast sandwich refers to any kind of sandwich filled with foods that are usually considered a breakfast staple such as cured meats, eggs, cheese, and various types of bread. Before the explosion of breakfast sandwiches in the United States, they were often consumed by factory workers of the 19th century London, where they were called bap sandwiches, named after the soft and back then, often slightly stale rolls filled with fried eggs, crispy bacon, and melted cheese.')">
+        <img class="images" onclick="openTheImage(2,'Bread Pudding','Bread pudding is an old dish that has been prepared since Medieval times in Europe and the Middle East. However, it is extremely beloved and defining in the cuisine of New Orleans. The dish consists of stale bread that is bathed in a combination of milk, sugar, eggs, nuts, and fruits, and is then baked into a delicious dessert.')">
+        <img class="images" onclick="openTheImage(3,'Peanut Butter and Jelly Sandwich','A staple of American childhood foods, peanut butter and jelly sandwich, or PB&J for short is a sandwich consisting of two slices of bread, one with a layer of peanut butter, and the other one with jelly or jam. Quick, easy, and affordable, the first written reference for the sandwich appeared in 1901 in the Boston Cooking School Magazine of Culinary Science and Domestic Economics.')">
+        <img class="images" onclick="openTheImage(4,'Pepper Jack','Pepper Jack is an American cheese produced in Monterey, California. This popular variety of Monterey Jack cheese is flavored with jalapeño peppers for a spicy kick. It s made from cows milk and has a natural rind that hides a creamy, smooth, and open texture')">
+        <img class="images" onclick="openTheImage(5,'Shrimp Cocktail','Shrimp or prawn cocktail is a seafood dish consisting of cooked prawns served in a glass with cocktail sauce. The dish has vague origins, but most people claim that it was invented by a 19th-century miner from California who first used oysters in a glass with a sauce, but the Golden Gate Hotel in Las Vegas was the first to offer a 50-cent shrimp cocktail in 1959')">
+        <img class="images" onclick="openTheImage(6,'Stromboli','Somewhat similar to a calzone, the American stromboli is a savory type of turnover filled with classic pizza ingredients: mozzarella or other types of cheese, Italian meats like salami, pepperoni, bresaola, and capocollo, and sometimes even vegetables, while the marinara sauce is served on the side, rather than baked inside with the filling.')">
+        <img class="images" onclick="openTheImage(7,'Molten Chocolate Cake','When chef Jean-Georges Vongerichten mistakenly pulled out his chocolate sponge cake out of the oven ahead of time, little did he know it was a blessing in disguise. Once he cracked the spongy outside, he was met with an explosion of liquid chocolate oozing out of its confinements, as if finally set free.')">
+        <img class="images" onclick="openTheImage(8,'Mozzarella Sticks','Mozzarella sticks are one of America favorite cheesy snacks consisting of battered, breaded, and deep-fried pieces of mozzarella cheese. Although they are traditionally served as an appetizer with marinara sauce, these cheesy sticks can also be paired with plum sauce, honey mustard sauce, raspberry sauce, Ranch dressing, or barbecue sauce.')">
+        <img class="images" onclick="openTheImage(9,'Hot Chicken','Hot chicken is a signature dish of Nashville, Tennessee, traditionally consisting of chicken parts that are fried in cayenne pepper paste until they develop a rusty red color. It is usually served on slices of white bread with sliced pickles or coleslaw on the side.')">
+        <img class="images" onclick="openTheImage(10,'Chop Suey','The earliest known Chinese-American dish called chop suey is believed to have been invented in the United States in the mid-1800s by Chinese immigrants who were trying to make authentic Chinese food more suitable for westerners. And even though chop suey could easily be as American as apple pie, some food historians speculate that it originated from the Cantonese tsap seui (lit. mixed leftovers), an impressive medley of stir-fried vegetables. However, being limited by the scarcity of Asian vegetables in America, Chinese cooks started stir-frying any vegetables which were at hand, adding shredded chicken, pork, or even beef to the mix, and serving it over steamed rice')">
+        <img class="images" onclick="openTheImage(11,'Cream Pie','Luscious cream pies are one of the most famous American desserts. Uncomplicated and refreshing, they are usually made with a crunchy bottom crust and a rich, creamy filling, all topped with generous amounts of whipped cream.')">
+        
+
+    </div>
+    <div id="bigimage" style="display: none;" >
+        <h1 id="close" onclick="closeTheImage()">X</h1>
+        <img id="bigimg">
+        <h1 id="matter"></h1>
+        <p id="par"></p>
+    </div>
+</body>
+</html>
